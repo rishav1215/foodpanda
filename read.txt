@@ -1,0 +1,32 @@
+database (foodpanda)
+
+
+1.tables
+    id
+    name
+    category
+    image
+    price
+    is_veg(boolean)
+
+
+2.order
+
+    id
+    name
+    contect
+    status = paid/ unpaid
+
+    1 To N
+
+3.OrderItems
+    id
+    orderid
+    dish_id
+    qnt = difault=1
+
+4.admin
+    id 
+    email
+    password    
+
